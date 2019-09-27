@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All" verbose="1" parallel="classes" thread-count="5">
+
+    <test name="Test" preserve-order="false">
+        <classes>
+            <class name="tests.AnotherTest"/>
+            <class name="tests.NewTest"/>
+            <class name="tests.YetAnotherTest"/>
+        </classes>
+
+
+    </test>
+
+
+</suite>
